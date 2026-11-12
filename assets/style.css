@@ -50,3 +50,9 @@ tr.rev td{font-style:italic;color:var(--muted)}
 .yname{font-size:20px;font-weight:700}.ystats{color:var(--muted);font-size:14px}.go{margin-top:8px;color:var(--brand2);font-weight:600}
 footer{margin-top:48px;padding:24px 0;border-top:1px solid var(--line);color:var(--muted);font-size:14px}
 @media (max-width:560px){.top .wrap{gap:6px}.years{margin-left:0;width:100%}td.pg{width:auto}.hero{padding:28px 0 24px}}
+#books{margin-top:8px}
+.books{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,220px));gap:14px}
+.book{display:flex;flex-direction:column;gap:6px;text-decoration:none;color:var(--ink);background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px;transition:.15s}
+.book:hover{border-color:var(--brand2);transform:translateY(-2px);box-shadow:0 6px 20px rgba(31,58,138,.08)}
+.book img{width:100%;aspect-ratio:auto;border-radius:8px;border:1px solid var(--line);display:block}
+.btitle{font-weight:700}.book small{color:var(--muted)}
